@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroManifest - Science of Manifestation</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px 0; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 0 50px; max-width: 1200px; margin: 0 auto; }
+        .logo { font-size: 28px; font-weight: bold; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 30px; }
+        nav ul li a { color: white; text-decoration: none; font-weight: 500; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 150px 50px 100px; text-align: center; }
+        .hero h1 { font-size: 56px; margin-bottom: 20px; font-weight: 700; }
+        .hero p { font-size: 24px; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .btn { display: inline-block; padding: 15px 40px; background: white; color: #667eea; text-decoration: none; font-size: 18px; font-weight: bold; border-radius: 50px; transition: all 0.3s; }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .btn-primary { background: #f093fb; color: white; }
+        .features { padding: 100px 50px; max-width: 1200px; margin: 0 auto; }
+        .features h2 { text-align: center; font-size: 42px; margin-bottom: 60px; color: #333; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
+        .feature-card { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s; }
+        .feature-card:hover { transform: translateY(-10px); }
+        .feature-card h3 { font-size: 28px; margin-bottom: 15px; color: #667eea; }
+        .feature-card p { color: #666; font-size: 16px; }
+        .stats { background: #f8f9fa; padding: 80px 50px; text-align: center; }
+        .stats h2 { font-size: 42px; margin-bottom: 60px; }
+        .stats-grid { display: flex; justify-content: center; gap: 80px; max-width: 1200px; margin: 0 auto; }
+        .stat-item { text-align: center; }
+        .stat-number { font-size: 64px; font-weight: bold; color: #667eea; }
+        .stat-label { font-size: 18px; color: #666; margin-top: 10px; }
+        .cta { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 100px 50px; text-align: center; }
+        .cta h2 { font-size: 48px; margin-bottom: 20px; }
+        .cta p { font-size: 22px; margin-bottom: 40px; }
+        footer { background: #333; color: white; padding: 60px 50px 30px; }
+        footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; max-width: 1200px; margin: 0 auto; }
+        footer h4 { font-size: 20px; margin-bottom: 20px; }
+        footer ul { list-style: none; }
+        footer ul li { margin-bottom: 10px; }
+        footer ul li a { color: #ccc; text-decoration: none; }
+        .footer-bottom { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #666; color: #999; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 36px; }
+            .hero p { font-size: 18px; }
+            nav { padding: 0 20px; }
+            nav ul li { margin-left: 15px; }
+            .stats-grid { flex-direction: column; gap: 40px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">NeuroManifest</div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#science">Science</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Discover the Science of Manifestation</h1>
+        <p>Neuroscience-backed evidence showing how manifestation and the Law of Attraction work through real brain mechanisms</p>
+        <a href="#get-started" class="btn btn-primary">Get the Free Guide</a>
+    </section>
+
+    <section class="features" id="features">
+        <h2>What You'll Learn</h2>
+        <div class="feature-grid">
+            <div class="feature-card"><h3>🧠 Brain Anatomy</h3><p>Complete guide to different brain parts, their locations, and functions with neuroscience data</p></div>
+            <div class="feature-card"><h3>⚡ Brain Waves</h3><p>Frequency ranges of Delta, Theta, Alpha, Beta, Gamma waves and their impact on your nervous system</p></div>
+            <div class="feature-card"><h3>🔄 Neuroplasticity</h3><p>How your brain physically changes through visualization - backed by Pascual-Leone's research</p></div>
+            <div class="feature-card"><h3>🎯 RAS System</h3><p>The Reticular Activating System: your brain's "manifestation superpower" that filters reality</p></div>
+            <div class="feature-card"><h3>⛓️ Quantum Physics</h3><p>Observer effect, wave-particle duality, and their theoretical connection to manifestation</p></div>
+            <div class="feature-card"><h3>📊 Case Studies</h3><p>Real scientific evidence: Athletes using visualization, 21-66 days to form new pathways</p></div>
+        </div>
+    </section>
+
+    <section class="stats" id="science">
+        <h2>Scientific Evidence</h2>
+        <div class="stats-grid">
+            <div class="stat-item"><div class="stat-number">86B</div><div class="stat-label">Neurons in Your Brain</div></div>
+            <div class="stat-item"><div class="stat-number">21-66</div><div class="stat-label">Days to Form New Pathways</div></div>
+            <div class="stat-item"><div class="stat-number">100%</div><div class="stat-label">Visualization = Physical Practice</div></div>
+        </div>
+    </section>
+
+    <section class="cta" id="get-started">
+        <h2>Ready to Manifest with Confidence?</h2>
+        <p>Get the complete neuroscience guide with charts, graphs, and scientific proofs</p>
+        <a href="#download" class="btn">Download Free PDF</a>
+    </section>
+
+    <footer id="contact">
+        <footer-content>
+            <div><h4>NeuroManifest</h4><p>Making manifestation scientific and accessible to everyone</p></div>
+            <div><h4>Resources</h4><ul><li><a href="#">Neuroscience Guide</a></li><li><a href="#">Brain Waves Chart</a></li><li><a href="#">Research Papers</a></li></ul></div>
+            <div><h4>Company</h4><ul><li><a href="#">About Us</a></li><li><a href="#">Contact</a></li><li><a href="#">Privacy Policy</a></li></ul></div>
+            <div><h4>Connect</h4><ul><li><a href="#">Twitter</a></li><li><a href="#">Instagram</a></li><li><a href="#">YouTube</a></li></ul></div>
+        </footer-content>
+        <div class="footer-bottom"><p>© 2026 NeuroManifest. All rights reserved.</p></div>
+    </footer>
+</body>
+</html>
